@@ -1,2 +1,2 @@
 # Xedotracker
-Xeotracker is a xenharmonic chiptune tracker that runs in the terminal.
+Xedotracker is a xenharmonic chiptune tracker that runs in the terminal.
