@@ -1,9 +1,19 @@
 [package]
 name = "xedotracker"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Floozutter <floozutter@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[dependencies.cursive]
+version = "0.13"
+default-features = false
+
+[features]
+default = ["crossterm-backend"]
+ncurses-backend = ["cursive/ncurses-backend"]
+pancurses-backend = ["cursive/pancurses-backend"]
+termion-backend = ["cursive/termion-backend"]
+crossterm-backend = ["cursive/crossterm-backend"]
+blt-backend = ["cursive/blt-backend"]
