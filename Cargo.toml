@@ -9,8 +9,10 @@ edition = "2018"
 [dependencies]
 synth = "0.11"
 pitch_calc = "0.11"
-portaudio = "0.7"
 sample = "0.10"
+portaudio = "0.7"
+# PortAudio installation for Windows: http://portaudio.com/docs/v19-doxydocs/tutorial_start.html
+# Alternative precompiled binary: https://github.com/adfernandes/precompiled-portaudio-windows
 
 [dependencies.cursive]
 version = "0.13"
