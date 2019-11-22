@@ -7,15 +7,10 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-synth = "0.11"
-pitch_calc = "0.11"
-sample = "0.10"
-portaudio = "0.7"
-# PortAudio installation for Windows: http://portaudio.com/docs/v19-doxydocs/tutorial_start.html
-# Alternative precompiled binary: https://github.com/adfernandes/precompiled-portaudio-windows
+cpal = "0.10.0"
 
 [dependencies.cursive]
-version = "0.13"
+version = "0.13.0"
 default-features = false
 
 [features]
