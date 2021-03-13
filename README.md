@@ -1,2 +1,2 @@
 # xedotracker
-A xenharmonic chiptune tracker!
+a xenharmonic chiptune tracker!
